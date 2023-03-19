@@ -1,4 +1,7 @@
+//AcceptAndPrintInfo.java
+
 import java.util.Scanner;
+
 public class AcceptAndPrintInfo {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -15,6 +18,6 @@ public class AcceptAndPrintInfo {
         long contact = sc.nextLong();
 
         System.out.println("Name\t\tAddress\t\tContact");
-        System.out.println(name+"\t\t"+address+"\t\t"+contact);
+        System.out.println(name + "\t\t" + address + "\t\t" + contact);
     }
 }
